@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+
+
+@font-face { 
+  font-family: "Dincond"; 
+  font-weight: 400; 
+  src: url(../font/dincond-medium-webfont.woff) format("woff"), 
+  url(../font/dincond-medium-webfont.ttf) format("truetype"); 
+}
+
+@font-face { 
+  font-family: "Dincond"; 
+  font-weight: 700; 
+  src: url(../font/dincond-bold-webfont.woff) format("woff"), 
+  url(../font/dincond-bold-webfont.ttf) format("truetype"); 
+}
+
+@font-face {
+  font-family: 'NanumSquare';
+  font-weight: 300;
+  src: url(../font/NanumSquareL.eot);
+  src: url(../font/NanumSquareL.eot?#iefix) format('embedded-opentype'),
+       url(../font/NanumSquareL.woff) format('woff'),
+       url(../font/NanumSquareL.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumSquare';
+  font-weight: 400;
+  src: url(../font/NanumSquareR.eot);
+  src: url(../font/NanumSquareR.eot?#iefix) format('embedded-opentype'),
+       url(../font/NanumSquareR.woff) format('woff'),
+       url(../font/NanumSquareR.ttf) format('truetype');
+}
+
+@font-face {
+font-family: 'NanumSquare';
+font-weight: 700;
+src: url(../font/NanumSquareB.eot);
+src: url(../font/NanumSquareB.eot?#iefix) format('embedded-opentype'),
+      url(../font/NanumSquareB.woff) format('woff'),
+      url(../font/NanumSquareB.ttf) format('truetype');
+}
+
+
+/**
+ * Copyright (c) 2015 Spoqa, Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files (the
+ * "Software"), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ * LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+ @font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 700;
+  src: local('Spoqa Han Sans Bold'),
+  url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansBold.woff2') format('woff2'),
+  url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansBold.woff') format('woff'),
+  url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 400;
+  src: local('Spoqa Han Sans Regular'),
+  url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansRegular.woff2') format('woff2'),
+  url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansRegular.woff') format('woff'),
+  url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 300;
+  src: local('Spoqa Han Sans Light'),
+  url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansLight.woff2') format('woff2'),
+  url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansLight.woff') format('woff'),
+  url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 100;
+  src: local('Spoqa Han Sans Thin'),
+  url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansThin.woff2') format('woff2'),
+  url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansThin.woff') format('woff'),
+  url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansThin.ttf') format('truetype');
+}
